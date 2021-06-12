@@ -1,0 +1,944 @@
+@font-face {
+    font-family: Open-Sans; 
+    src: url(OpenSans-Regular.ttf); 
+}
+@font-face {
+    font-family: Bebas-Neue; 
+    src: url(BebasNeue-Regular.ttf); 
+}
+
+
+*{
+    margin:0;
+    padding:0;
+   }
+
+html, body {
+    letter-spacing: 2px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    width:100vw;  
+    height:66.6vw;
+    background: url(bg\ image\ 1.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -1px;
+}
+.part2 {
+    width:100vw;  
+    height: 72.7vw;
+    background: url(bg\ image\ 2.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -2px;
+    display: flex;
+    flex-direction: column;
+}
+.part3 {
+    width:100vw;  
+    height: 60.3vw;
+    background: url(Group.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -6.3vw;
+}
+.part4 {
+    width:100vw;  
+    height: 65.9vw;
+    background: url(Group\ 2.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -1px;
+}
+.part5 {
+    width:100vw;  
+    height: 66.6vw;
+    background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url(bg\ image\ 3.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -1px;
+}
+footer {
+    width:100vw;  
+    height: 66.5vw;
+    background: url(Rectangle\ 4.3.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -1px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+header a, header .lang {
+    font-family: Open-Sans;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: white;
+}
+header nav{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.ddd {
+    padding-left: 6.34px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background: none;
+    font-family: Open-Sans;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 9px;
+    /*width: 65px;*/
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    width: 54.78px;
+    height: 65.72px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content button {
+    letter-spacing: 2px;
+    background: none;
+    border: none;
+    color: white;
+    padding-left: 8px;
+    display: block;
+    font-family: Open-Sans;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.34px;
+}
+.dropdown-content button:first-child {
+    padding-top: 7px;
+}
+.dropdown-content button:hover {
+    color: #FFB548;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    width: 185px;
+}
+.vecimg {
+    padding-right: 24.66px;
+    padding-left: 17px;
+}
+.oneimg {
+    padding-right: 17px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.mens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 83vw;
+    height: 7.5vw;
+}
+.write {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4px;
+    color: white;
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 104px;
+    margin-top: 13vw;
+    margin-left: -1.25vw;
+}
+.wr1 {
+    color: white;
+    font-family: Bebas-Neue;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 2.5px;
+    display: flex;
+    justify-content: center;
+    margin-left: -3.5vw;
+}
+.button{
+    font-family: Open-Sans;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:30px;
+    width: 270px;
+    height: 60px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button:active{
+    transform: scale(1.2);
+}
+.but {
+    display: flex;
+    justify-content: center;
+    margin-left: -4.85vw;
+}
+.thest {
+    font-family: Open-Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.wrapper {
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+.yeap {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 3.5vw;
+}
+/*4*/
+.part4{
+    display: flex;
+    flex-direction: column;
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.sysreq1{
+    margin-top: 145px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    justify-content: center;
+    display: flex;
+}
+.sysreq2{
+    margin-top: 8.7px;
+    font-size: 80px;
+    line-height: 80px;
+    justify-content: center;
+    display: flex;
+}
+.ramochka{
+    margin-left: 121.77px;
+    margin-top: 133.31px;
+    position: relative;
+    display: inline-block;
+    width: 573.5px;
+    text-transform: initial;
+    letter-spacing: 2px;
+}
+.ryzh1, .ryzh2, .ryzh3, .ryzh4, .ryzh5{
+    width: 276px;
+    font-family: Open-Sans;
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    position: absolute;
+    top: 14.89px;
+    left: 19.16px;
+}
+.ryzh2{
+    left: 295.57px;
+}
+.ryzh3{
+    top: 140.55px;
+    left: 10.51px;
+}
+.ryzh4{
+    top: 140.55px;
+    left: 295.57px;
+}
+.ryzh5{
+    top: 276.34px;
+    left: 10.51px;
+    width: 500px;
+}
+.ramochka span{
+    font-family: Bebas-Neue;
+    font-size: 24px;
+    color: #FFB548;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+/*part5*/
+.part5 {
+    font-family: Open-Sans;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    color: white;
+}
+.menu:first-child{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.menu:last-child{
+    margin-right: 120px;
+    height: 653px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wt, .pq{
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color:white;
+}
+.pq{
+    letter-spacing: 3px;
+    font-size: 80px;
+    line-height: 80px;
+}
+.goal{
+    margin-top: 51px;
+    font-family: Open-Sans;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color:white;
+}
+.but1{
+    margin-top: 60px;
+}
+.q1{
+    width: 452.59px;
+    height: 182.94px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    /*margin-left: 869.37px;*/
+    right: 0px;
+}
+.part5 img{
+    position: absolute;
+    top: 15.96px;
+}
+.circ{
+    position: absolute;
+    top: 15.96px;
+    left: 22.44px;
+}
+.ph{
+    position: absolute;
+    top: 11.03px;
+    left: 12.13px;
+}
+.name{
+    position: absolute;
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #FFB548;
+    top: 26.3px;
+    left: 109.02px;
+}
+.work_place{
+    position: absolute;
+    font-family: Open-Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    top: 51.73px;
+    left: 109.02px;
+}
+.quote{
+    position: absolute;
+    font-family: Open-Sans;
+    font-size: 18px;  
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    top: 103px;
+    left: 16.79px;
+}
+.date{
+    position: absolute;
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    top: 141.81px;
+    left: 16.6px;
+}
+.bird{
+    position: absolute;
+    margin-top: 14.3px;
+    left: 414.58px;
+}
+.q2, .q3{
+    width: 453.89px;
+    height: 205px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+}
+.q2 .date, .q3 .date{
+    top: 165.79px;
+}
+.q2{
+    margin-left: -144px;
+}
+.q3{
+    margin-left: -40px;
+}
+.q2 .ph, .q3 .ph{
+    position: absolute;
+    top: 14.42px;
+    left: 16.79px;
+}
+/*footer*/
+footer .inside{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+footer .inside hr{
+    background: rgb(255, 255, 255, 0.5);
+    height: 0.87px;
+    border:none;
+}
+footer .policy nav a, footer .policy nav{
+    text-decoration: none;
+    font-family: Open-Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: uppercase;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+footer .copyrights{
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255, 0.5);
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+footer .nispobokam{
+    display: flex;
+    justify-content: space-between;
+}
+footer .meu a{
+    text-decoration: none;
+    font-family: Open-Sans;
+    font-size: 12px;
+    font-weight: 700px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+footer .above{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+footer .meu{
+    width: 600px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer .social{
+    width: 241.44px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer .imglogo{
+    width: 200px;
+    height: 141.81px;
+    display: flex;
+    align-items: center;
+}
+footer .empty{
+    height: 91.19px;
+}
+footer .photka{
+    margin-top: 50px;
+}
+footer .menu{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+footer .menu:first-child{
+    margin-left: 160px;
+    width: 46.72vw;
+}
+footer .mom {
+    font-family: Open-Sans;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    color: white;
+}
+footer .wt, footer .pq{
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color:white;
+    text-transform: uppercase;
+}
+footer .pq{
+    letter-spacing: 3px;
+    font-size: 80px;
+    line-height: 80px;
+}
+footer .goal{
+    margin-top: 51px;
+    font-family: Open-Sans;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color:white;
+}
+footer .button{
+    font-family: Open-Sans;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 60px;
+    width: 260px;
+    height: 60px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer button:active{
+    transform: scale(1.2);
+}
+footer .form {
+    font-family: Open-Sans;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    color: white;
+}
+footer .form{
+    width: 650px;
+}
+footer .menu:first-child{
+    margin-left: 160px;
+    width: 46.72vw;
+}
+footer .menu:last-child{
+    height: 350px;
+    margin-left: 75px;
+}
+footer input{
+    margin-top: 60px;
+    width: 350.92px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    resize: none;
+    position: relative;
+}
+footer label{
+    font-family: Open-Sans;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+footer input:focus, footer input{/* при фокусе выставляется размер шрифта и цвет, с которым будет писать ползователь*/
+    color: #FFB548;
+    font-family: Open-Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 10px;
+
+}
+footer input[type="text"]{
+    padding-left: 21px;
+}
+footer .field {
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+footer label {
+    position: absolute;
+    left: 0px;
+    top: 161px;
+    transition: top 0.5s;
+    pointer-events: none;
+  }
+  
+  
+footer input:focus{ /* при фокусе инпута*/
+    outline: none; /* убирается белове выделение рамки ввода*/
+    transition-duration: 0.3s;
+    box-shadow: none;
+  }
+  
+footer input:focus+label {/* + комбинатор выбирает элемент который находится непосредственно после указанного элемента, то есть label сдвигается при фокусе input*/
+    top: 145px;
+  }
+
+/*part3*/
+.part3{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+.part3 .menu{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.part3 .menu:last-child{
+    margin-left: 10.42vw;
+    height: 350px;
+}
+.part3 .wt, .part3 .pq{
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color:white;
+    text-transform: uppercase;
+}
+.part3 .pq{
+    letter-spacing: 3px;
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 40px;
+}
+.part3 .wt{
+    margin-top: -120px;
+}
+.part3 .navmenu li{
+    font-family: Bebas-Neue;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    margin-top: 36.71px;
+    position: relative;
+}
+.part3 ul{
+    list-style: none;
+}
+.part3 .navmenu ul li:before{
+    content: "";
+    left: -42px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    border: 1.31px solid #FFFFFF;
+}
+.part3 .navmenu ul li:first-child::before{
+    background: white;
+}
+.part3 .navmenu ul li:first-child::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 140px;
+    background: white;
+    margin-left: -316.5px;
+    margin-top: 22.5px;
+}
+.part3 .tab-content{
+    font-family: Open-Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: white;
+    /*margin-top: -10px;*/
+}
+.part3 .navmenu li:first-child{
+    margin-bottom: 15px;
+}
+/*part2*/
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.part2 .menu{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.part2 .menu:last-child{
+    width: calc(105vw/2);
+}
+.part2 .menu:first-child{
+    margin-left: 120px;
+    width: calc(100vw/2); 
+}
+.part2 .wt, .part2 .pq{
+    font-family: Bebas-Neue;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color:white;
+    text-transform: uppercase;
+}
+.part2 .pq{
+    letter-spacing: 3px;
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 17px;
+}
+.part2 .wt{
+    margin-top: -120px;
+}
+.part2 hr{
+    background: rgb(255, 255, 255);
+    height: 3px;
+    border:none;
+    border-radius: 4px;
+    width: 48.35vw;
+    position: absolute;
+    z-index: 4;
+    margin-top: -130px;
+}
+.textik{
+    margin-top: 80px;
+    height: 175;
+    width: 365px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    font-family: Open-Sans;
+    color: white;
+    text-align: justify;
+    position: relative;
+}
+.divo{
+    margin-right: 35px;
+    width: calc(100vw/2-100px);
+    display: flex;
+    justify-content: flex-end;
+}
+.textik .under {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+  
+.textik .under::before {
+    content: '';
+    position: absolute;
+    bottom: 5%; left: 0;
+    width: 100%; height: 6.27px;
+    background-color: #FFB548;
+    z-index: -1;
+}
+.part2 .all{
+    font-weight: 700;
+}
+/*slider*/
+.part2 {margin:0;padding:0;border: 0 none;position: relative;}
+
+.part2 {display: flex;}
+.part2 > div { /* отступ от  слайдера */
+	margin: auto;
+}
+.part2 .galeria {
+  margin: 0vh auto 0;
+  width: 80vw;
+  transform-style: preserve-3d; /*элементы распологаются в 3д*/
+}
+
+.part2 .card { /* размеры карточек и их особенности*/
+  background-size: 2px 2px, cover;
+  background-repeat: repeat, none;
+  background-position: 0 0;
+  width: 502.76px;
+  height: 610px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 2rem rgba(0,0,0,.5);
+  border-radius: 3px;
+}
+.part2 .una { /* 1 карточка*/
+  background: url(screenshot\ 1.svg) no-repeat;
+}
+.part2 .tres { /* 3 карточка*/
+  background: url(image.jpg) no-repeat;
+}
+.part2 .dos { /* 2 карточка */
+  background: url(image\ \(1\).jpg) no-repeat;
+}
+.part2 input {visibility: hidden;} /* прячим сами радио-кнопки. не белые, а те которые идут постандарту, если это не прописать, то будет видно их в верхнем левом углу карточки*/
+.part2 label { /* белые кнопки, на которые жмет пользователь. Их размеры и расположение*/
+    left: 90px;
+    top: 94%;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin: 25px 42.77px 0 25px;
+    position: relative;
+}
+.part2 label::before {/* прорисовка самих кружков, ПОЛЫХ */
+	border: 1.51px solid white;
+	content: " ";
+	display: block;
+	height: 14px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 14px;
+	border-radius: 50px;
+}
+#uno:checked ~ .una label:first-child:before, /* связваем каждый <input> по id с каждой карточкой <label>*/
+#dole:checked ~ .dos label:nth-child(3):before,
+#tele:checked ~ .tres label:nth-child(2):before { /* если человек нажимает на определенный кружок, то этот кружок закрашивается. ~ - нужна для выбора карточки после нажатия на кружок, то есть человек нажимиет 3 кружок и выбипается 3 каточка*/
+	background: white;
+}
+#uno:checked ~ .una label:first-child:after, #dole:checked ~ .dos label:nth-child(3):after,
+#tele:checked ~ .tres label:nth-child(2):after{ /* это тоже самое, но для палочек рядом с кружками*/ 
+  content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+
+
+
+#uno:checked ~ .dos, /* связываем радиокнопки с карточками, то есть свзываем нажатие кружка с поведеним остальных карточек.  принажатии 1 кружка 2 карточка поедет влево*/
+#dole:checked ~ .tres, /* при нажатии на 3 кнопку для второй карточки, вторая карточка поедет влево*/
+#tele:checked ~ .una {/* при нажатии на 2 конпку для первой карточки*/
+  animation: 1s ye; /* одна из 3 анимаций */
+  animation-fill-mode: forwards;
+  transform-origin: center right;
+  z-index: 1;
+}
+#uno:checked ~ .tres, /* при нажатии на 1 кнопку для 2 карточки, поедет вправо*/
+#dole:checked ~ .una, /* при нажатии на 3 конпку для 1 карточки */
+#tele:checked ~ .dos { /* при нажатии на 2 кнопку для 3 карточки*/
+  animation: 1.5s fuera-dch;
+  animation-fill-mode: forwards;
+  transform-origin: center right;
+  z-index: 2;
+}
+#uno:checked ~ .una, /* 1 конпка для 1 карточки*/
+#dole:checked ~ .dos, /* 2 кнопка для 2 карточки*/
+#tele:checked ~ .tres {/* 3 кнопка для 3 карточки */ 
+  animation: 2s central;/*карточка выходит на передний план*/ 
+  animation-fill-mode: forwards;
+  transform-origin: center center;
+  z-index:3;
+}
+
+@keyframes ye {/* сама анимация для карточки, которая будет двигаться влево*/
+  0% {transform: scale(1) translatex(0%);} 
+  70% {transform: scale(.9) translatex(-100%);}
+  100% {transform: scale(.8) translatex(14%);}
+}
+@keyframes fuera-dch { /* сама анимация, которая будет двигаться вправо*/
+  0% {transform: scale(1) translatex(0%);}
+  70% {transform: scale(.9) translatex(100%);}
+  100% {transform: scale(.9) translatex(7%);}
+}
+@keyframes central { /* анимация для карточки, которую выбрали*/ 
+  0% {transform: scale(.8);z-index: 1;}
+  80% {transform: scale(.5);z-index: 3;}
+  100% {transform: scale(1);z-index: 3;}
+}
+@keyframes pulso {
+  50% {opacity: .7;}
+}
+
+
